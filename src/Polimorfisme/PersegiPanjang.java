@@ -1,3 +1,4 @@
+package Polimorfisme;
 
 public class PersegiPanjang extends BangunDatar {
 
@@ -7,14 +8,14 @@ public class PersegiPanjang extends BangunDatar {
     @Override
     float luas(){
         float luas = panjang * lebar;
-        System.out.println("Luas Persegi Panjang : " + luas);
+        System.out.println("Luas Polimorfisme.Persegi Panjang : " + luas);
         return luas;
     }
 
     @Override
     float keliling(){
         float keliling = 2 * panjang * lebar;
-        System.out.println("Keliling Persegi Panjang : " + keliling);
+        System.out.println("Keliling Polimorfisme.Persegi Panjang : " + keliling);
         return keliling;
     }
 }

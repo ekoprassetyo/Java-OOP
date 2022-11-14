@@ -1,3 +1,5 @@
+package Polimorfisme;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -24,8 +26,8 @@ public class Main {
 
 
 //        Memanggil method luas dan keliling
-        bangunDatar.luas();
-        bangunDatar.keliling();
+//        bangunDatar.luas();
+//        bangunDatar.keliling();
 
         persegi.luas();
         persegi.keliling();

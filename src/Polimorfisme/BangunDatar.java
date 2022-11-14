@@ -1,3 +1,5 @@
+package Polimorfisme;
+
 public class BangunDatar {
 
     float luas() {

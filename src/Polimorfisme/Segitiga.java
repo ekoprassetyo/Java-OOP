@@ -1,3 +1,4 @@
+package Polimorfisme;
 
 public class Segitiga extends BangunDatar {
 
@@ -7,7 +8,7 @@ public class Segitiga extends BangunDatar {
     @Override
     float luas() {
         float luas = 1.5f * (alas * tinggi);
-        System.out.println("Luas Segitiga: " + luas);
+        System.out.println("Luas Polimorfisme.Segitiga: " + luas);
         return luas;
     }
 

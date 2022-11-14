@@ -1,3 +1,4 @@
+package Polimorfisme;
 
 public class Lingkaran extends BangunDatar {
 
@@ -6,7 +7,7 @@ public class Lingkaran extends BangunDatar {
     @Override
     float luas(){
         float luas = (float) (Math.PI * r * r);
-        System.out.println("Luas lingkaran :" + luas);
+        System.out.println("Luas lingkaran : " + luas);
         return luas;
     }
 
